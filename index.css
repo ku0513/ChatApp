@@ -1,0 +1,51 @@
+#talk {
+	background-color:rgb(113,147,193); /* LINEっぽい背景色 */
+	padding:1em;
+	overflow:auto;
+}
+/* #talk .messages:before {
+	content:'';
+	display:inline-block;
+	width:50px;
+	height:50px;
+	vertical-align:top;
+	border-radius:50%;
+	background-size:cover;
+	background-image:url(Yin-Yang-True-false-icon.png);
+} */
+/* 左ふきだしの左三角を描画 */
+/* #talk .messages p:before {
+	content: '';
+	position:absolute;
+	top:8px;
+	left:-20px;
+	border: 12px solid transparent;
+	border-right:12px solid white;
+} */
+/* #talk .messages p {
+	display:inline-block;
+	position:relative;
+	background-color:white;
+	border-radius:10px;
+	padding:10px;
+	margin:0 0 0 10px;
+} */
+
+#talk .message-icon{
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+  }
+
+#talk .message-text{
+    display: inline-block;
+    max-width: 70%;
+    border-radius: 1rem;
+  }
+
+img {
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  48px;       /* ※縦横を同値に */
+    height: 48px;       /* ※縦横を同値に */
+}
